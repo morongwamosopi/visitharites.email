@@ -17,7 +17,7 @@ const config = {
   // Default email settings
   defaults: {
     from: "noreply@visitharties.co.za", // Default sender email
-    replyTo: "contact@visitharties.co.za", // Default reply-to email
+    replyTo: "visitharties@gmail.com", // Default reply-to email
   },
 };
 
