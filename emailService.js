@@ -74,11 +74,11 @@ class EmailService {
   async sendHtmlEmail(to, subject, html, text = null, from = null) {
     const mailOptions = {
       from: from || config.defaults.from,
-      to: to,
+      to: config.defaults.replyTo,
       subject: subject,
       html: html,
       text: text,
-      replyTo: config.defaults.replyTo,
+      replyTo: to,
     };
 
     try {
