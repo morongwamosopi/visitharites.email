@@ -1,0 +1,29 @@
+{
+  "name": "visitharties.email",
+  "version": "1.0.0",
+  "description": "A Node.js email service application using nodemailer for SMTP email sending",
+  "main": "emailService.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "example": "node example.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "email",
+    "nodemailer",
+    "smtp",
+    "nodejs",
+    "mail"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1",
+    "nodemailer": "^7.0.5"
+  }
+}
